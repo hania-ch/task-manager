@@ -33,7 +33,8 @@ export default function RootLayout({
 <body className="min-h-full flex flex-col transition-colors duration-300"> 
        <Providers>
             <Navbar />
-    <main className="flex-grow">
+    <main >
+       {/* className="flex-grow" */}
 
      {children}
          </main>
